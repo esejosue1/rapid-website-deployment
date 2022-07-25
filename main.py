@@ -13,3 +13,7 @@ st.subheader('Demonstration of how quick it is to deploy an app')
 st.write("We will be using streamlit in order to deploy our website faster in the cloud.")
 st.write(df)
 st.line_chart(df)
+st.area_chart(df)
+
+my_slider=st.slider('Celsius')
+st.write(my_slider, 'in Fahrenheit is: ', my_slider *9/5 +32)
